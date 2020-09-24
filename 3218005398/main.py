@@ -13,7 +13,6 @@ test['orig_0.8_dis_1.txt'] = open(path1+'\\'+'orig_0.8_dis_1.txt', 'r', encoding
 test['orig_0.8_dis_10.txt'] = open(path1+'\\'+'orig_0.8_dis_10.txt', 'r', encoding='utf-8').read()
 test['orig_0.8_dis_15.txt'] = open(path1+'\\'+'orig_0.8_dis_15.txt', 'r', encoding='utf-8').read()
 
-
 def jaccard():
 #预处理：去分词，去停用词,去符号
     test_word=[]
